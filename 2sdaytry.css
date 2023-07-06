@@ -80,6 +80,10 @@ body{
  .iPhone{
     margin-right: 53px;
  }
+ 
+ .threeiPhone{
+    display: none;
+ }
 
  /*  part 2*/
  .aboutSection{
@@ -408,7 +412,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    gap: 76px;
+    margin-bottom: 76px;
   
 }
 
@@ -479,6 +483,7 @@ body{
     display: flex;
     flex-direction: column;
    margin-right: 0 auto;
+   position: relative;
 }
 .secureState h4{
     width: 281px;
@@ -503,8 +508,9 @@ body{
 }
 
 .frame5454{
-    position: relative;
     margin: 0 auto;
+    top: 396px;
+   
 }
 
 .frame54{
@@ -516,8 +522,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: -300px;
+    
 }
 
 
@@ -826,11 +831,12 @@ body{
 
 }
 
-/*@media screen  and (min-width: 376px){ 
+@media screen  and (min-width: 900px){ 
     body{
-        max-width: 1440px;
-        width: 100%;
+        min-width: 100%;
+        width: 900px;
     }
+
     .navBar{
         display: flex;
         margin: 47px 120px 132px 119px;
@@ -839,9 +845,8 @@ body{
     
     .menuSeen{
         display: flex;
-        gap: 52px;
+        justify-content: space-evenly;
         text-align: left;
-
     }
 
     .homeTop{
@@ -901,8 +906,8 @@ body{
     }
     
     .heading{
-        width: 1200px;
-        height: 369px;
+        width: 800px;
+        height: 340px;
         font-family: DM Sans;
         font-size: 130px;
         font-weight: 700;
@@ -915,13 +920,130 @@ body{
     
     .googlepalyStore{
         display: flex;
+        flex-direction: row;
         gap: 26px;
         margin: 82px 447px 16px 447px;
 
     }
-     
 
-}
+    .iPhone{
+        display: none;
+    }
+
+    .threeiPhone{
+        display: flex;
+    }
+
+    .aboutSection{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+     
+    .headingText2{
+        align-items: start;
+        width: 481px;
+        height: 207px;
+        font-family: DM Sans;
+        font-size: 68px;
+        font-weight: 500;
+        line-height: 69px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+    
+    .techToMusic{
+        width: 481px;
+        height: 120px;
+        opacity: 0.60px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        align-items: start;
+        
+    }
+
+    .fans1{
+        display: flex;
+       text-align: center;
+    }
+
+    .fans2{
+        display: flex;
+        align-items: start;
+       text-align: center;
+    }
+  
+
+    .influenText{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .influencers1{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .influencers2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    }
+
+    .youngOldGee{
+        display: none;
+
+    }
+
+    .youngandText{
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    
+    .youngAr{
+        display: flex;
+       align-items: end;
+    }
+
+
+    
+
+    .imageNew{
+        display: flex;
+      align-items: start;
+    
+    }
+
+    .navFilter{
+        display: flex;
+        flex-direction: column;
+        top: 100px;
+    }
+    
+
+    .features{
+        display: flex;
+
+    }
+
+    .earAssurance{
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .frame5454{
+
+    }
+
+  
+}   
 
 
 
