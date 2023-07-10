@@ -67,7 +67,8 @@ body{
 
 .buttonstrtLearn{
  display: flex;
- justify-content: space-around;
+ justify-content: center;
+ gap: 16px;
 }
 
 .stFree{
@@ -525,6 +526,11 @@ body{
         gap: 48px;
         padding-top: 123px;
     }
+    .buttonstrtLearn{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 16px;
     
     .modGrow h2{
         font-size: 64px;
